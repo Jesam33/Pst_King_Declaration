@@ -19,11 +19,11 @@ const Header = () => {
         </div>
 
         {/* Center Section */}
-        <div className="flex flex-col items-center space-y-2">
+        <div className="flex  items-center space-y-2">
           {/* <Title text={title} className="text-2xl font-[600] text-white-800" /> */}
           <Button
             text='"INDEED, I SEE A GLORIOUS FUTURE AHEAD"'
-            className="bg-purple-900 hover:bg-green-500 text-white text-[25px] py-2 px-6 rounded-lg"
+            className="bg-purple-900 hover:bg-green-500 text-white text-[25px] xl:text-[20px] py-2 px-6 rounded-lg"
           />
         </div>
 
