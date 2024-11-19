@@ -3,7 +3,7 @@ import pastorImg from "../assets/Kings.jpg";
 import Title from "./Title";
 import TextContent from "./TextContent";
 import Button from "./Button";
-import InputContext from "../contexts/inputContext";
+import InputContext from "../contexts/InputContext";
 
 const Header = () => {
   const { day, month, title } = useContext(InputContext);

@@ -15,7 +15,7 @@ import { IoChevronForwardOutline } from "react-icons/io5";
 import { IoChevronBackOutline } from "react-icons/io5";
 import { FaFacebook } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io5";
-import InputContext from "../contexts/inputContext";
+import InputContext from "../contexts/InputContext";
 import SideBar from "./SideBar";
 import Header from "./Header";
 import {
