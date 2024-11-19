@@ -35,7 +35,7 @@
 
 .heroImg {
     position: relative; /* Important to position the container relative */
-    background: url("./assets/bg.avif");
+    background: black;
     background-size: contain;
     background-position: center;
     @apply bg-cover bg-center;

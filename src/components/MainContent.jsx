@@ -89,7 +89,7 @@ const DailyVictory = () => {
 
             <div className="linear w-full lg:w-1/2 p-4 rounded-xl mb-4">
               <Title
-                text="My Special prayers for you today:" className="text-xl text-purple-400 uppercase"
+                text="My Special prayers for you:" className="text-xl text-purple-400 uppercase"
               />
               <TextContent
                 innerHtml={insertLineBreaks(prayer)}
