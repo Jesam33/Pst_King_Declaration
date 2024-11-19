@@ -11,7 +11,7 @@ const SideBar = () => {
             <div className="flex items-center gap-2">
             <img src={AGLogo} className="w-[12%] lg:w-[14%]" alt="HouseJoy" />
             <div className=" border-l-2 px-2 items-center">
-              <h2 className='text-white'>Assemblies Of God Rumuolukwu</h2>
+              <h2 className='text-white'>Assemblies Of God Rumuolukwu, Eneka</h2>
               {/* <h2>IKWERE DISTRICT</h2> */}
               <h2 className="italic text-purple-400">Come and be blessed ...</h2>
             </div>
