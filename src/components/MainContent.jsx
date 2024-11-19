@@ -123,9 +123,9 @@ const DailyVictory = () => {
            
           </div>
           <div className="flex gap-3 ">
-              <h3 className="text-sm lg:text-[14px] flex gap-3 items-center italic text-purple-400 underline"><span className="text-white "><IoLogoYoutube className="text-[25px]" /></span> <a href="https://www.youtube.com/@REVISRAELKING">PASTOR ISRAEL KING</a></h3>
+              <h3 className="text-sm lg:text-[14px] flex gap-3 items-center italic text-purple-400 "><span className="text-white "><IoLogoYoutube className="text-[25px]" /></span> <a href="https://www.youtube.com/@REVISRAELKING">PASTOR ISRAEL KING</a></h3>
 
-              <h3 className="text-sm lg:text-[14px] flex gap-3 items-center italic text-purple-400 underline"><span className="text-white "><FaFacebook className="text-[25px]" /></span> <a href="https://web.facebook.com/pstisrael.king">Pst Israel King</a></h3>
+              <h3 className="text-sm lg:text-[14px] flex gap-3 items-center italic text-purple-400"><span className="text-white "><FaFacebook className="text-[25px]" /></span> <a href="https://web.facebook.com/pstisrael.king">Pst Israel King</a></h3>
             </div>
          
         </div>
