@@ -82,7 +82,7 @@ const Form = () => {
               <div className="flex space-x-11 items-end">
                 <div className="w-[60%] h-[120px]">
                   <textarea
-                    placeholder="Confession 1"
+                    placeholder="Confession"
                     value={confession1}
                     onChange={(e) => setConfession1(e.target.value)}
                     className="w-full outline-none text-black p-4 border-2 border-gray-900 rounded-[10px] h-full"
@@ -93,53 +93,14 @@ const Form = () => {
                     type="text"
                     value={scripture1}
                     onChange={(e) => setScripture1(e.target.value)}
-                    placeholder="Scripture 1"
+                    placeholder="Scripture"
                     className="rounded-[10px] outline-none text-black px-3 border-2 border-gray-900 w-full h-full"
                   />
                 </div>
               </div>
 
               {/* Confession 2 */}
-              <div className="flex space-x-11 items-end">
-                <div className="w-[60%] h-[120px]">
-                  <textarea
-                    value={confession2}
-                    onChange={(e) => setConfession2(e.target.value)}
-                    placeholder="Confession 2"
-                    className="w-full outline-none text-black p-4 border-2 border-gray-900 rounded-[10px] h-full"
-                  />
-                </div>
-                <div className="w-[40%] h-[60px]">
-                  <input
-                    type="text"
-                    value={scripture2}
-                    onChange={(e) => setScripture2(e.target.value)}
-                    placeholder="Scripture 2"
-                    className="rounded-[10px] outline-none text-black px-3 border-2 border-gray-900 w-full h-full"
-                  />
-                </div>
-              </div>
 
-              {/* Confession 3 */}
-              <div className="flex space-x-11 items-end">
-                <div className="w-[60%] h-[120px]">
-                  <textarea
-                    value={confession3}
-                    onChange={(e) => setConfession3(e.target.value)}
-                    placeholder="Confession 3"
-                    className="w-full outline-none text-black p-4 border-2 border-gray-900 rounded-[10px] h-full"
-                  />
-                </div>
-                <div className="w-[40%] h-[60px]">
-                  <input
-                    type="text"
-                    value={scripture3}
-                    onChange={(e) => setScripture3(e.target.value)}
-                    placeholder="Scripture 3"
-                    className="rounded-[10px] outline-none text-black px-3 border-2 border-gray-900 w-full h-full"
-                  />
-                </div>
-              </div>
 
               {/* Additional Fields */}
               <div className="flex py-2 space-x-11 items-end">
@@ -152,21 +113,13 @@ const Form = () => {
                       className="w-full outline-none text-black p-4 border-2 border-gray-900 rounded-[10px] h-full"
                     />
                   </div>
-                  <div className="w-full h-[100px]">
-                    <textarea
-                      value={prophecy}
-                      onChange={(e) => setProphecy(e.target.value)}
-                      placeholder="Prophecy"
-                      className="w-full outline-none text-black p-4 border-2 border-gray-900 rounded-[10px] h-full"
-                    />
-                  </div>
                 </div>
 
                 <div className="w-[40%] h-[250px]">
                   <textarea
                     value={prayer}
                     onChange={(e) => setPrayer(e.target.value)}
-                    placeholder="Prayer"
+                    placeholder="Special Prayers for you today"
                     className="w-full outline-none text-black p-4 border-2 border-gray-900 rounded-[10px] h-full"
                   />
                 </div>
