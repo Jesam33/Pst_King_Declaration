@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import InputContext from "./contexts/inputContext.js";
+import InputContext from "./contexts/InputContext.js";
 import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
 import MainContent from "./components/MainContent";
 import NextPage from "./components/NextPage.jsx"; // Another page to navigate to
